@@ -2,6 +2,7 @@ Revision history for Perl extension File::Same.
 
 0.04   2015-12-22
        - Moved Same.pm to lib/File/Same.pm
+       - In SEE ALSO, make Digest::MD5 a link, and added File::Find::Duplicates
        - Changed dates in this file to be ISO 8601 format,
          as suggested by CPAN::Changes::Spec
 
