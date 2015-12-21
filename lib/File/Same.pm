@@ -1,8 +1,9 @@
 package File::Same;
 
+use 5.006;
 use strict;
-use vars qw/$VERSION/;
-$VERSION = '0.03';
+use warnings;
+our $VERSION = '0.03';
 
 use Digest::MD5;
 use File::Spec;
@@ -129,6 +130,8 @@ Currently maintained by Mohammad S Anwar, C<< <mohammad.anwar at yahoo.com> >>
 
 =head1 SEE ALSO
 
-Digest::MD5
+L<Digest::MD5> - used to generate a checksum for every file.
+
+L<File::Find::Duplicates> - another that can be used to find duplicates.
 
 =cut
