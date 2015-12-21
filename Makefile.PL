@@ -4,7 +4,11 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     'NAME'		=> 'File::Same',
     'VERSION_FROM'	=> 'lib/File/Same.pm', # finds $VERSION
-    'PREREQ_PM'		=> {}, # e.g., Module::Name => 1.1
+    'PREREQ_PM'		=> {
+        'strict' => 0,
+        'Digest::MD5' => 0,
+        'File::Spec' => 0,
+    },
     ($] >= 5.005 ?    ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM => 'lib/File/Same.pm', # retrieve abstract from module
        AUTHOR     => q{Mohammad S Anwar <mohammad.anwar@yahoo.com>}) : ()),

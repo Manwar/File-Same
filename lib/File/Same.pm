@@ -1,8 +1,9 @@
 package File::Same;
 
+use 5.006;
 use strict;
-use vars qw/$VERSION/;
-$VERSION = '0.03';
+use warnings;
+our $VERSION = '0.03';
 
 use Digest::MD5;
 use File::Spec;
