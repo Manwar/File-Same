@@ -3,7 +3,7 @@ package File::Same;
 use 5.006;
 use strict;
 use warnings;
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 use Digest::MD5;
 use File::Spec;
@@ -82,6 +82,10 @@ __END__
 =head1 NAME
 
 File::Same - Detect which files are the same as a given one
+
+=head1 VERSION
+
+Version 0.04
 
 =head1 SYNOPSIS
 

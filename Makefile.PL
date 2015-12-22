@@ -1,17 +1,29 @@
+#!/usr/bin/perl
+
+use 5.006;
+use strict;
+use warnings FATAL => 'all';
 use ExtUtils::MakeMaker;
-# See lib/ExtUtils/MakeMaker.pm for details of how to influence
-# the contents of the Makefile that is written.
+
 WriteMakefile(
-    'NAME'		=> 'File::Same',
-    'VERSION_FROM'	=> 'lib/File/Same.pm', # finds $VERSION
-    'PREREQ_PM'		=> {
-        'strict' => 0,
-        'Digest::MD5' => 0,
-        'File::Spec' => 0,
+    NAME               => 'File::Same',
+    AUTHOR             => q{Mohammad S Anwar <mohammad.anwar@yahoo.com>},
+    VERSION_FROM       => 'lib/File/Same.pm',
+    LICENSE            => 'artistic_2',
+    MIN_PERL_VERSION   => 5.006,
+    CONFIGURE_REQUIRES => {
+        'ExtUtils::MakeMaker' => 0,
     },
-    ($] >= 5.005 ?    ## Add these new keywords supported since 5.005
-      (ABSTRACT_FROM => 'lib/File/Same.pm', # retrieve abstract from module
-       AUTHOR     => q{Mohammad S Anwar <mohammad.anwar@yahoo.com>}) : ()),
+    BUILD_REQUIRES     => {
+        'Test::More'   => '1.001014',
+    },
+    PREREQ_PM          => {
+        'strict'       => 0,
+        'Digest::MD5'  => 0,
+        'File::Spec'   => 0,
+    },
+    dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
+    clean => { FILES => 'File-Same-*' },
     (eval { ExtUtils::MakeMaker->VERSION(6.46) } ? (META_MERGE => {
         'meta-spec' => { version => 2 },
         resources => {

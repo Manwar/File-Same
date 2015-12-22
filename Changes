@@ -1,15 +1,16 @@
 Revision history for Perl extension File::Same.
 
 0.04   2015-12-22
-       - Moved Same.pm to lib/File/Same.pm
-       - In SEE ALSO, make Digest::MD5 a link, and added File::Find::Duplicates
-       - Added "use warnings", and min perl version to code
-       - Added prereqs to Makefile.PL
-       - Changed dates in this file to be ISO 8601 format,
-         as suggested by CPAN::Changes::Spec
+       - [NEILB]  Moved Same.pm to lib/File/Same.pm
+       - [NEILB]  In SEE ALSO, make Digest::MD5 a link, and added File::Find::Duplicates
+       - [NEILB]  Added "use warnings", and min perl version to code
+       - [NEILB]  Added prereqs to Makefile.PL
+       - [NEILB]  Changed dates in this file to be ISO 8601 format, as suggested by CPAN::Changes::Spec
+       - [MANWAR] Bumped version in the package File::Same.
+       - [MANWAR] Added key 'LICENSE' and 'MIN_PERL_VERSION' to Makefile.PL script.
 
 0.03   2015-12-21
-       - Adopted the module with kind permission from Matt Sergeant.
+       - [MANWAR] Adopted the module with kind permission from Matt Sergeant.
 
 0.02   2001-11-06
        - binmode() for Win32
