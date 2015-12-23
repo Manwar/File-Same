@@ -1,5 +1,7 @@
 Changes
 MANIFEST
+MANIFEST.SKIP
+LICENSE
 Makefile.PL
 README
 lib/File/Same.pm

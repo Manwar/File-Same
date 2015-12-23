@@ -1,5 +1,10 @@
 Revision history for Perl extension File::Same.
 
+0.05   2015-12-23 MANWAR
+       - Added LICENSE file.
+       - Added MANIFEST.SKIP file.
+       - Added LICENSE/BUGS/SUPPORT sections to the pod document.
+
 0.04   2015-12-22
        - [NEILB]  Moved Same.pm to lib/File/Same.pm
        - [NEILB]  In SEE ALSO, make Digest::MD5 a link, and added File::Find::Duplicates
@@ -9,12 +14,12 @@ Revision history for Perl extension File::Same.
        - [MANWAR] Bumped version in the package File::Same.
        - [MANWAR] Added key 'LICENSE' and 'MIN_PERL_VERSION' to Makefile.PL script.
 
-0.03   2015-12-21
-       - [MANWAR] Adopted the module with kind permission from Matt Sergeant.
+0.03   2015-12-21 MANWAR
+       - Adopted the module with kind permission from Matt Sergeant.
 
 0.02   2001-11-06
        - binmode() for Win32
        - Forgot to close filehandles (oops!)
 
 0.01   2001-10-29
-       - original version; created by h2xs 1.21 with options -A -X -n File::Same
+       - original version; created by h2xs 1.21 with options -A -X -n File::Same.
