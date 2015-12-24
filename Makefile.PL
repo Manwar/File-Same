@@ -9,7 +9,7 @@ WriteMakefile(
     NAME               => 'File::Same',
     AUTHOR             => q{Mohammad S Anwar <mohammad.anwar@yahoo.com>},
     VERSION_FROM       => 'lib/File/Same.pm',
-    LICENSE            => 'artistic_2',
+    LICENSE            => 'perl',
     MIN_PERL_VERSION   => 5.006,
     CONFIGURE_REQUIRES => {
         'ExtUtils::MakeMaker' => 0,
