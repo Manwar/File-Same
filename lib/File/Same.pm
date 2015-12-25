@@ -1,6 +1,6 @@
 package File::Same;
 
-$File::Same::VERSION   = '0.07';
+$File::Same::VERSION   = '0.08';
 $File::Same::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ File::Same - Detect which files are the same as a given one.
 
 =head1 VERSION
 
-Version 0.07
+Version 0.08
 
 =cut
 
@@ -145,6 +145,10 @@ sub _not_same {
 =item Currently maintained by Mohammad S Anwar, C<< <mohammad.anwar at yahoo.com> >>
 
 =back
+
+=head1 REPOSITORY
+
+L<https://github.com/manwar/File-Same>
 
 =head1 SEE ALSO
 

@@ -1,5 +1,8 @@
 Revision history for Perl extension File::Same.
 
+0.08   2015-12-25 MANWAR
+       - Added section REPOSITORY to the pod document.
+
 0.07   2015-12-24 MANWAR
        - Updated Makefile.PL script w.r.t LICENSE information.
        - Updated LICENSE file w.r.t. Copyright information.
