@@ -26,6 +26,9 @@ WriteMakefile(
     clean => { FILES => 'File-Same-*' },
     (eval { ExtUtils::MakeMaker->VERSION(6.46) } ? (META_MERGE => {
         'meta-spec' => { version => 2 },
+        provides    => {
+            'File::Same' => { file => 'lib/File/Same.pm', version => '0.09' },
+        },
         resources => {
             repository => {
                 type => 'git',

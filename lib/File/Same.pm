@@ -1,6 +1,6 @@
 package File::Same;
 
-$File::Same::VERSION   = '0.08';
+$File::Same::VERSION   = '0.09';
 $File::Same::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ File::Same - Detect which files are the same as a given one.
 
 =head1 VERSION
 
-Version 0.08
+Version 0.09
 
 =cut
 
@@ -193,13 +193,7 @@ L<http://search.cpan.org/dist/File-Same/>
 
 =head1 LICENSE AND COPYRIGHT
 
-=over 4
-
-=item Copyright (C) 2001 MessageLabs Limited.
-
-=item Copyright (C) 2015 Mohammad S Anwar.
-
-=back
+Copyright (C) 2001 MessageLabs Limited.
 
 This is free  software, you may use it and distribute  it under the same terms as
 Perl itself.

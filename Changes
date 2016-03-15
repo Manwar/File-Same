@@ -1,5 +1,8 @@
 Revision history for Perl extension File::Same.
 
+0.09   2016-03-15 MANWAR
+       - Added key 'provides' to the Makefile.PL script.
+
 0.08   2015-12-25 MANWAR
        - Added section REPOSITORY to the pod document.
 
