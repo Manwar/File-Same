@@ -10,6 +10,8 @@ t/01base.t
 t/02files.t
 t/03dir.t
 t/04dirs.t
+t/manifest.t
+t/pod.t
 testfiles/a
 testfiles/b
 testfiles/dir1/a

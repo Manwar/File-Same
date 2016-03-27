@@ -1,5 +1,8 @@
 Revision history for Perl extension File::Same.
 
+0.10   2016-03-27 MANWAR
+       - Added standard test scripts t/manifest.t and t/pod.t.
+
 0.09   2016-03-15 MANWAR
        - Added key 'provides' to the Makefile.PL script.
 
