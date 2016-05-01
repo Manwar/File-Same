@@ -7,7 +7,7 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile(
     NAME               => 'File::Same',
-    AUTHOR             => q{Mohammad S Anwar <mohammad.anwar@yahoo.com>},
+    AUTHOR             => q{Matt Sergeant <MSERGEANT@cpan.org>},
     VERSION_FROM       => 'lib/File/Same.pm',
     LICENSE            => 'perl',
     MIN_PERL_VERSION   => 5.006,
@@ -27,7 +27,7 @@ WriteMakefile(
     (eval { ExtUtils::MakeMaker->VERSION(6.46) } ? (META_MERGE => {
         'meta-spec' => { version => 2 },
         provides    => {
-            'File::Same' => { file => 'lib/File/Same.pm', version => '0.10' },
+            'File::Same' => { file => 'lib/File/Same.pm', version => '0.11' },
         },
         resources => {
             repository => {

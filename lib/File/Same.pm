@@ -1,7 +1,7 @@
 package File::Same;
 
-$File::Same::VERSION   = '0.10';
-$File::Same::AUTHORITY = 'cpan:MANWAR';
+$File::Same::VERSION   = '0.11';
+$File::Same::AUTHORITY = 'cpan:MSERGEANT';
 
 =head1 NAME
 
@@ -9,7 +9,7 @@ File::Same - Detect which files are the same as a given one.
 
 =head1 VERSION
 
-Version 0.10
+Version 0.11
 
 =cut
 

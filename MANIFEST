@@ -12,6 +12,8 @@ t/03dir.t
 t/04dirs.t
 t/manifest.t
 t/pod.t
+t/meta-json.t
+t/meta-yml.t
 testfiles/a
 testfiles/b
 testfiles/dir1/a
